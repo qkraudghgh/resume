@@ -1,28 +1,26 @@
 module.exports = {
   profile: {
-    name: '김우현',
-    description: 'Front-end developer',
-    dateOfBirth: '1996.11.05',
-    email: 'dngus242@gmail.com',
-    phoneNumber: '010-5496-2733',
+    name: '박명호',
+    description: 'Front-end(or Server) developer',
+    dateOfBirth: '1993.01.03',
+    email: 'qkraudghgh@gmail.com',
     links: [
-      {name: 'github', href: 'https://github.com/KimWooHyun'},
-      {name: 'portfolio', href: 'https://kimwoohyun.github.io/portfolio/'}
+      {name: 'github', href: 'https://github.com/qkraudghgh'},
+      {name: 'blog', href: 'https://qkraudghgh.github.io'}
     ]
   },
   introduction: `
-    2014년부터 Front-End 개발을 하고 있는 김우현입니다.<br />
-    마크업과 Vue.js를 이용한 Front-End 개발에 관해 관심이 많으며 최근에는 flex와 크로스 브라우징, 반응형 웹과 사용자 인터랙션에도 관심을 두고 있습니다.<br />
-    주로 사용하는 언어는 HTML, CSS, JavaScript 입니다.<br /><br />
-    최근에 Vue.js에 관심이 생겨 사내 도입을 시도하였고 Front-End 프레임워크에 관심을 가지게 되었습니다.<br />
-    이후 리뉴얼 프로젝트에서는 Vue.js의 SSR 프레임 워크인 Nuxt.js를 이용한 서비스를 제작하여 SPA 와 SSR 개발 경험을 하였습니다.<br />
-    Nuxt.js 프로젝트에서는 보다 시멘틱 한 웹에 중점을 두었으며, CSS 프레임 워크를 따로 두지 않고 CSS 전처리 도구인 LESS 로 개발하였습니다.<br /><br />
-    디자이너와는 스케치와 제플린을 활용하여 커뮤니케이션을 하였으며 결과물을 같이 확인 하며 실시간으로 반영하고 의견 조율을 하였습니다.<br /><br />
-    오픈소스에도 관심이 많습니다.<br />
-    처음에는 Nuxt.js 의 도큐먼트 오탈자와 예제 코드 수정 등 작은 이슈들을 처리하였고, github에 있는 여러 컴포넌트 라이브러리들을 둘러보면서 오픈소스에 대한 관심이 생겼습니다.<br />
-    그러다 최근에 사내에서 쓰고 있는 기능을 구현하는 도중, 라이브러리로 만들어 배포하면 어떨까 생각하게 되어 오픈소스로 배포하였습니다.<br />
-    이후 여러 나라의 사람들과 다양한 언어로 github을 통해 같이 살을 붙여나가고 있습니다.<br />
-    현재 vue-lunar-calendar  라는 한국 음력 달력 라이브러리로 배포되었으며 총 7명의 contributors, 6개의 언어로 되어있습니다.
+    2016년부터 Front-End 개발을 하고 있고 최근에는 Back-End 개발에 관심이 생긴 박명호입니다.<br />
+    주로 Angular.js를 이용하여 Front-End 개발을 해왔고 익숙합니다. 최근에는 Vue에 관심이 생겨 공부하고 있습니다. <br /><br />
+    디자인 전공을 했던 적이 있어 Front-End 개발 시에 사용자들이 편한 UX로 개발하는 것에 관심이 있습니다.<br />
+    반응형 디자인을 좋아하며 웹 접근성을 고려하여 개발해야 한다는 것을 염두에 두려고 노력합니다.<br />
+    Emacs를 가지고 개발하는 것을 좋아합니다.<br />
+    주로 사용하는 언어는 Javascript이며 Coffescript와 Elixir 또한 사용해본 적이 있습니다.<br /><br />
+    최근에는 Elixir로 Back-End 개발을 할 기회가 생겨 JWT를 이용한 회원가입 시스템을 개발하였고 자연스레 함수형 프로그래밍을 경험하였습니다.<br /><br />
+    디자이너와는 스케치, 제플린 등으로 커뮤니케이션을 해왔으며 서로 만족할 만한 작업물이 나올때 까지 얘기를 하는 편입니다.<br /><br />
+    오픈 소스 구경하는 것을 좋아하며 관심 있는 것을 번역하기도 했습니다.<br />
+    내가 번역한 작업물을 많은 사람이 읽어 준다는 것이 특별한 경험이었으며 공식 레포에도 링크되었고<br />
+    번역을 진행하면서 오히려 공부를 더 많이 할 수 있었던 것이 좋았습니다.<br /><br />
     `
   ,
   contents: {
@@ -34,312 +32,293 @@ module.exports = {
       },
       {
         'date': 'Language',
-        'title': 'HTML5 (3) / CSS3 (3) / JavaScript (2) / Swift (2) / Python (2)',
+        'title': 'HTML5 (3) / CSS3 (3) / JavaScript (2) / Coffescript (2) / Elixir (1)',
         'contents': ['']
       },
       {
         'date': 'Framework',
-        'title': 'Vue.js (3) / Nuxt.js (3) / Django (2) / Flask (1) / Bootstrap (3)',
+        'title': 'Angular.js (3) / Loopback.io (1) / Bootstrap (3) / Phoenix (1)',
         'contents': ['']
       },
       {
         'date': 'Library',
-        'title': 'Webpack (2) / jQuery (2) / Less (2) / Axios (3) / Alamofire (3)',
+        'title': 'Webpack (1) / jQuery (2) / Sass (2)',
         'contents': ['']
       },
       {
         'date': 'Dependency Manager',
-        'title': 'cocoapods (3) / npm (3) / yarn (3) / pip (3)',
+        'title': 'npm (3) / yarn (3)',
         'contents': ['']
       }
     ],
-    '개인 프로젝트': [
+    '개인/팀 프로젝트': [
       {
-        'date': '2017.07 - 현재',
-        'title': 'vue-lunar-calendar',
+        'date': '2018.04 - 현재',
+        'title': 'markdown-note',
         'contents': [
-          '- Vue.js component library',
-          '- <a href="https://github.com/KimWooHyun/vue-lunar-calendar">https://github.com/KimWooHyun/vue-lunar-calendar</a>',
-          '- 한국 음력 달력 라이브러리',
-          '- opensource',
-          '- 총 7명의 contributors, 6개의 언어'
+          '개인 프로젝트',
+          '- markdown으로 글을 쓰고 공유하는 서비스',
+          '- <a href="https://github.com/qkraudghgh/markdown-note">https://github.com/qkraudghgh/markdown-note</a>',
+          '- <a href="http://13.209.17.75:3000/">Link</a>'
         ]
       },
       {
-        'date': '2017.08',
-        'title': 'WHLunarCalendar',
+        'date': '2017.07 - 2017.08',
+        'title': 'meetup',
         'contents': [
-          '- Swift library',
-          '- <a href="https://github.com/KimWooHyun/WHLunarCalendar">https://github.com/KimWooHyun/WHLunarCalendar</a>',
-          '- 한국 음력 달력 라이브러리',
+          '팀 프로젝트',
+          '- Slack 연동 소모임 서비스의 Web',
+          '- <a href="https://github.com/qkraudghgh/meetup">https://github.com/qkraudghgh/meetup</a>',
+          '- fullcalendar.js를 이용한 소모임 서비스',
+          '- Slack Oauth를 이용해 Slack Community에서 사용 가능',
+          '- Slack bot과 연동하여 이용 가능',
+          '- <a href="https://youtu.be/rN_6QzqsOI0">동영상</a>'
+        ]
+      },
+      {
+        'date': '2017.02',
+        'title': 'Year Of Programmers - YOP',
+        'contents': [
+          '팀 프로젝트',
+          '- 지난 한 해를 돌아보며 자신의 회고를 공유하는 서비스',
+          '- <a href="https://github.com/9XDM/YOP">https://github.com/9XDM/YOP</a>',
+          '- <a href="https://yopyop-5e569.firebaseapp.com">Link</a>',
+        ]
+      },
+      {
+        'date': '2017.01',
+        'title': 'clean-code-javascript-ko',
+        'contents': [
+          '개인 프로젝트',
+          '- clean-code-javascript의 한글 번역',
+          '- <a href="https://github.com/qkraudghgh/clean-code-javascript-ko">https://github.com/qkraudghgh/clean-code-javascript-ko</a>',
+          '- <a href="https://github.com/ryanmcdermott/clean-code-javascript/pull/157">PR</a>',
           '- opensource'
         ]
       }
     ],
     '개인 활동': [
       {
-        'date': '2018.02 - 현재',
-        'title': 'Women Techmakers KR 2018',
-        'img': '/pa/wtm-logo.png',
+        'date': '2018.04',
+        'title': 'Women Techmakers KR 2018 스태프',
         'contents': [
-          '<strong>Women Techmakers KR 2018 오거나이저</strong>',
-          '- 행사준비',
-          '- 안내사이트 제작',
-          '- <a href="https://wtm-korea-2018.firebaseapp.com/">https://wtm-korea-2018.firebaseapp.com/</a>'
+          '행사 준비'
         ]
       },
       {
-        'date': '2017.08 - 현재',
-        'title': 'DjangoCon KR 2018',
-        'img': '/pa/djangocon-logo.png',
+        'date': '2017.10',
+        'title': '소프트웨어 마에스트로 100+ 컨퍼런스',
         'contents': [
-          '<strong>DjangoCon KR 2018 오거나이저</strong>',
-          '- 행사준비'
+          '소프트웨어 마에스트로 컨퍼런스 발표',
+          '-  Elixir & Phoenix framework 관련 발표',
+          '- <a href="https://speakerdeck.com/qkraudghgh/elixir-and-phoenix-framework-masbogi">https://speakerdeck.com/qkraudghgh/elixir-and-phoenix-framework-masbogi</a>'
         ]
       },
       {
-        'date': '2017.12',
-        'title': 'Do it! Vue.js',
+        'date': '2017.06',
+        'title': 'Naver Campus Hack Day 2017 summer',
         'contents': [
-          'vue.js 관련 책 기술 검토 및 자문',
-          '서명: Do it! Vue.js 입문서',
-          '저자: 장기효',
-          '대상 독자: 프레임워크를 다뤄보지 않은 웹 개발 입문자, Vue.js를 배우고 싶은 대학생 & 퍼블리셔 & 실무자',
-          '책 내용: 프론트엔드 개발 프레임워크인 Vue.js 소개, 뷰 기술요소 학습, 뷰를 이용한 실전 애플리케이션 제작'
+          '네이버 주최 해커톤 참가',
+          '- 팀 주제: 영화 추천 봇 만들기',
+          '- 네이버 영화 서비스를 크롤링하여 챗봇으로 검색할 수 있게 만듦'
         ]
       },
       {
-        'date': '2017.12',
-        'title': 'Vue.js Korea Meetup3',
+        'date': '2017.04',
+        'title': 'Women Techmakers KR 2017 스태프',
         'contents': [
-          'Vue.js Korea 3번째 밋업 스태프 및 행사 총괄'
+          '행사 준비'
         ]
       },
       {
-        'date': '2017.11',
-        'title': 'GDG DevFest',
+        'date': '2017.03',
+        'title': '특성화 고등학교 개발자 모임 “시나브로”',
         'contents': [
-          'GDG DevFest 스태프',
-          '- 안내사이트 제작 참여',
-          '- <a href="https://devfest17-seoul.firebaseapp.com/">https://devfest17-seoul.firebaseapp.com/</a>'
+          '시나브로 모임 발표',
+          '- 협업 관련 발표',
+          '- <a href="https://speakerdeck.com/qkraudghgh/hyeobeob">https://speakerdeck.com/qkraudghgh/hyeobeob</a>'
         ]
       },
       {
-        'date': '2017.09',
-        'title': '9XD 해커톤',
+        'date': '2016.12',
+        'title': '9XD Christmas Meetup "Red black tree"',
         'contents': [
-          '9XD 해커톤 "내꺼만들기, 내꺼톤" 참가',
-          '- Vue.js 전파',
-          '- 팀 주제: 불만',
-          '- 본인의 불만을 말하고 피드백을 받을 수 있는 게시판 형태의 웹 서비스 "불만투고" 제작 및 배포'
-        ]
-      },
-      {
-        'date': '2017.08',
-        'title': 'GDG Web Tech',
-        'contents': [
-          'GDG Web Tech 발표',
-          '- Vue.js 관련 발표',
-          '- <a href="https://www.slideshare.net/ssuserd3aacb/vue-js-79169830">https://www.slideshare.net/ssuserd3aacb/vue-js-79169830</a>'
-        ]
-      },
-      {
-        'date': '2017.08',
-        'title': 'Vue.js Korea Meetup2',
-        'contents': [
-          'vue.js Korea 2번째 밋업 스태프'
-        ]
-      },
-      {
-        'date': '2017.07',
-        'title': 'GDG Korea Campus summer party',
-        'contents': [
-          'GDG Korea Campus 스태프',
-          '- 행사 준비',
-          '- 안내사이트 제작 참여',
-          '- <a href="https://gdgsummerparty.firebaseapp.com">https://gdgsummerparty.firebaseapp.com</a>'
+          '9XD Meetup 발표',
+          '- Github hubot 관련 발표',
+          '- <a href="https://www.slideshare.net/ssuser8293c3/ss-70421811">https://www.slideshare.net/ssuser8293c3/ss-70421811</a>'
         ]
       }
     ],
-    '학력 사항': [
+    '기타 사항': [
       {
-        'date': '2016 - 현재',
-        'title': '한국방송통신대학교',
-        'contents': ['컴퓨터과학과 재학중']
+        'date': '2011.03 - 2018.02',
+        'title': '아주대학교',
+        'contents': ['미디어학부 졸업']
       },
       {
-        'date': '2012 - 2015',
-        'title': '미림여자정보과학고등학교 (미림 마이스터고)',
-        'contents': ['인터랙티브 미디어과 졸업']
+        'date': '2013.03 - 2014.12',
+        'title': '병역',
+        'contents': ['육군 병장 만기 제대']
       }
     ]
   },
   summary: {
     '경력 요약': [
       {
-        'date': ['2018.04', '현재'],
-        'title': 'Spoqa (스포카)',
+        'date': ['2017.06', '2017.12'],
+        'title': 'Plain Bagle (플레인 베이글)',
         'contents': [
-          '주 - Front-end 개발'
+          '주 - Back-end(Elixir, Phoenix framework) 개발',
+          '서브 - Front-end 개발'
         ]
       },
       {
-        'date': ['2016.01', '2018.01'],
-        'title': 'ONE MOMENT (원모먼트)',
+        'date': ['2016.02', '2016.12'],
+        'title': 'Frientrip (프렌트립)',
         'contents': [
-          '주 - Front-end 개발',
-          '서브 - Swift, Django 개발'
+          '주 - Front-end(Angular.js) 개발',
+          '서브 - Back-end(Node.js, Loopback.io) 개발'
         ]
       },
-      {
-        'date': ['2014.12', '2016.01'],
-        'title': 'ATEAM VENTURES (에이팀벤쳐스)',
-        'contents': [
-          '주 - Front-end 개발',
-          '서브 - Django, Flask 개발'
-        ]
-      }
     ]
   },
   detailContents: {
-    'ONE MOMENT (원모먼트)': {
-      'date': '2016.01 - 2018.01',
-      'info': '90분 당일 꽃배달 서비스 “원모먼트 플라워” 를 서비스 중인 스타트업.',
+    'Plain bagel (플레인 베이글)': {
+      'date': '2017.06 - 2017.12',
+      'info': '긴 동영상을 압축해서 썸네일 형식으로 짧은 시간에 감상할 수 있는 앱 “Skippy” 를 서비스 중인 스타트업.',
       'service': [
-        'Web<br /> - <a href="https://1moment.co.kr/">https://1moment.co.kr/</a> <br /> - 현재 Vue.js (SPA)로 개발된 사이트<br /><br />',
-        'iOS App<br /> - <a href="https://goo.gl/jP2ZYR">https://goo.gl/jP2ZYR</a>'
+        'Skippy<br /> - <a href="http://www.skippy.ai/">http://www.skippy.ai/</a> <br />',
       ],
       'project': {
         'project': [
           {
-            'date': '2017.10 - 2018.01',
-            'title': 'Nuxt.js 도입 및 SSR 지원',
+            'date': '2017.11 - 2018.12',
+            'title': 'ELK 도입',
             'contents': [
-              '원모먼트 서비스 사이트 전체 리뉴얼',
-              `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 정기구독 리스트 /  정기구독 등록 / 주문 / 주문 확인 / 마이페이지 - 기념일 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 적립금  / 마이페이지 - 간편결제 카드 관리 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
-              `,
-              '- Nuxt.js 도입 및 SSR 지원',
-              '- css 프레임워크 제거 및 LESS 도입',
-              '- 그리드 시스템 개발',
-              '- 시멘틱 웹 표준 준수',
-              '- axios 를 활용한 api call',
-              '- PM2, ecosystem을 이용한 배포 자동화',
+              'ELK Stack을 도입하여 사용자들의 사용성 정보 수집',
+              '- Log 수집을 위한 Web server를 AWS에 띄움',
+              '- Logstash와 Web server를 연동해 정보 수집',
+              '- 안드로이드 개발자와 Web server에 Log를 전달할 수 있게 협업',
+              '- Checksum을 이용해 공격자에 의한 거짓 Log 정보를 수집하지 않도록 방어',
+              '- Elasticsearch를 이용해 Logstash로 수집한 정보를 template화 시키고 저장',
+              '- Kibana를 통해 Elasticsearch의 정보를 시각화 시키고 마케팅 팀과 협업하여 추가로 정보 수집',
               '- 기여도 : 100%, 단독진행',
-              'stack: Vue.js, Nuxt.js, Less'
+              'stack: Logstash, Elasticsearch, Kibana, Elixir, Phoenix framework, AWS'
             ]
           },
           {
-            'date': '2017.02 - 2017.03',
-            'title': 'Vue.js 도입',
+            'date': '2017.10 - 2017.11',
+            'title': '회원가입 시스템 도입',
             'contents': [
-              '원모먼트 서비스 사이트 전체 리뉴얼',
+              '비회원으로만 운영되던 서비스에 회원가입 시스템 추가',
               `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 정기구독 리스트 /  정기구독 등록 / 적립금 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
+              - 작업 리스트 :
+              History / Bookmark / 회원가입 / 이미지 업로드 / 유저 추이 그래프
               `,
-              '- Vue.js (SPA) 도입',
-              '- 비동기 처리를 이용한 서비스 속도 개선',
-              '- vue-resource 를 활용한 api call',
-              '- 기여도 : 45%',
-              'stack: Vue.js, Bootstrap 4, Bootstrap 3, jQuery'
+              '- Firebase Auth 서비스를 이용한 회원가입',
+              '- JWT 인증 모듈 구현',
+              '- Admin 메인에 chart.js를 이용한 유저 추이 그래프 구현',
+              '- Multipart를 이용해 이미지를 받고 S3에 저장',
+              '- 기여도 : 100%, 단독 진행',
+              'stack: Firebase, JWT, Elixir, Phoenix framework, S3'
             ]
           },
           {
-            'date': '2016.06 - 2017.11',
-            'title': 'iOS App 런칭',
+            'date': '2016.09 - 2017.10',
+            'title': 'Android App 유지보수',
             'contents': [
-              'iOS App 런칭',
+              'Android 개발자의 부재로 간단한 유지보수 진행',
               `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 주문 / 주문 확인 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
+              - 작업 리스트 :
+              App icon 바꾸기 / On boarding page / 동영상 플레이어 버튼 수정
               `,
-              '- Auto Layout을 이용한 반응형 앱 개발',
-              '- iTunes Connect 배포 및 버전 관리',
-              '- cocoapods 를 활용한 라이브러리 디펜던시 관리',
-              '- alamofire 를 활용한 api call',
-              '- 기여도 : 100%, 단독진행',
-              'stack: Swift, cocoapods'
+              '안드로이드 개발자가 아직 없어서 방치해두었던 버그들과 개선 사항중에 할 수 있는 부분 처리',
+              '- 기여도 : 100%',
+              'stack: JAVA, XML'
             ]
           },
           {
-            'date': '2016.01 - 2016.03',
+            'date': '2016.08 - 2016.09',
             'title': '관리자 페이지',
             'contents': [
-              '원모먼트 서비스 관리자 페이지 제작 및 유지보수',
+              'Skippy 서비스 관리자 페이지 제작 및 유지보수',
               `
-              - 작업 리스트 : 
-              퀵사 연동 / 주문 내역 (운영팀/플라워팀) / 퀵 주문 내역 / 주문 리포트 / 기념일 리포트 / 기획전 생성 페이지
+              - 작업 리스트 :
+              게시물 sorting / S3를 이용해 Static file serving / 배너 / 플레이리스트
               `,
-              '- Django template을 이용한 front-end 개발',
+              '- Phoenix framework를 이용하여 웹 영역 유지보수',
+              '- ES6 및 Sass를 사용할 수 있도록 프로젝트에 적용',
+              '- EC2에서 폴더로 관리하던 Static file들 S3로 마이그레이션',
               '- 기여도 : 30%',
-              'stack: Django'
+              'stack: S3, ES6, Sass, Javascript, Elixir'
             ]
           },
           {
-            'date': '2016.01 - 2016.03',
-            'title': '웹 서비스 런칭',
+            'date': '2016.06 - 2016.08',
+            'title': '온라인 자막 에디터',
             'contents': [
-              '원모먼트 서비스 런칭',
+              '어드민에서 동영상 자막 작업을 할 수 있는 소규모 프로젝트',
               `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 주문 / 주문 확인 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 회사소개
+              - 작업 리스트 :
+              Youtube 동영상 불러오기 / 해당 Timeline에 자막을 작성 / Preview / 자막 파일 불러오기
               `,
-              '- Django template을 이용한 front-end 개발',
+              '- Youtube 동영상을 보면서 자막을 바로 작성, 수정할 수 있는 온라인 에디터',
+              '- S3를 연동하여 기존에 작업하던 자막을 바로 불러오고 수정할 수 있음',
+              '- App에서 제공하는 player와 똑같은 view를 제공하여 작업을 용이하게 함',
+              '- 여러 자막을 합쳐 영상클립으로 만들 수 있는 기능 만듦',
+              '- Jquery로 작업했다가 Javascript로 수정하여 작업 <a href="https://qkraudghgh.github.io/javascript/2017/08/17/jquery-to-javascript.html">블로그</a>',
               '- 기여도 : 100%, 단독진행',
-              'stack: HTML5, CSS3, JavaScript, jQuery, Django'
+              'stack: HTML5, CSS3, JavaScript, jQuery, Elixir'
             ]
           }
         ]
       }
     },
-    'ATEAM VENTURES (에이팀벤쳐스)': {
-      'date': '2014.12 - 2016.01',
-      'info': '3D Printer 공유 플랫폼 사이트 “ShapEngine” 을 서비스 중인 스타트업.',
+    'Frientrip (프렌트립)': {
+      'date': '2016.02 - 2016.12',
+      'info': '취미 & 여가 O2O 서비스 “Frip” 을 운영 중인 스타트업.',
       'service': [
-        `Web<br />
-        <span style="font-weight:bold">shapEngine</span><br />
-        - 3D Printer를 보유한 사람과 3D Modeling 도면을 보유한 사람을 매칭해 주는 중개 플랫폼<br />
-        - <a href="https://shapengine.com/">https://shapengine.com/</a><br /><br />
-        <span style="font-weight:bold">creatable labs</span><br />
-        - 자사 3D Printer 인 creatable 시리즈 판매 사이트<br />
-        - <a href="https://creatablelabs.com/">https://creatablelabs.com/</a>`
+        `<span style="font-weight:bold">Frip</span><br />
+        - 다양한 활동을 도와주는 호스트와 참여자들을 중개해주는 여가 플랫폼<br />
+        - <a href="https://www.frip.co.kr/">https://www.frip.co.kr/</a><br /><br />`
       ],
       'project': {
         'project': [
           {
-            'date': '2015.07 - 2016.01',
-            'title': 'shapEngine 웹 서비스 리뉴얼',
+            'date': '2016.11 - 2016.12',
+            'title': '호스트 어드민 v2 제작',
             'contents': [
-              'shapEngine 웹 서비스 리뉴얼',
-              '- 작업 리스트 : 메인 / 프린터 등록 / 채팅 ',
-              '- Django로 리팩토링',
+              '호스트 어드민 v2 Structure 제작',
+              '- 작업 리스트 : Stack 결정 / Router / API 서버 통신 Service module ',
+              '- Angular 2와 ES6를 이용하여 기본 뼈대 구성',
               '- 기여도 : 25%',
-              'stack: Django, Jinja2, HTML5, CSS3, JavaScript'
+              'stack: Angular2, Javascript, Sass, Webpack'
             ]
           },
           {
-            'date': '2015.06 - 2015.06',
-            'title': 'creatable labs 웹 서비스 제작',
+            'date': '2016.03 - 2016.05',
+            'title': '호스트 어드민 제작',
             'contents': [
-              'creatable labs 웹 서비스 제작',
-              '- 작업 리스트 : 블로그 페이지 제작',
-              '- 워드프레스로 제작',
-              '- 기여도 : 10%',
-              'stack: HTML5, CSS3'
+              'Frip 서비스의 호스트들이 이용하는 서비스',
+              '- 작업 리스트 : 메인 / 출석체크 / 정산 / 스케쥴 보기',
+              '- 호스트들이 각자 아이디로 운영중인 프로그램 스케쥴 보기 및 출석체크 가능',
+              '- 정산 페이지를 통해 수수료 계산 및 정산 요청, Excel형식으로 export 가능',
+              '- 기여도 : 80%',
+              'stack: AngularJs, HTML5, Sass, JavaScript, Bootstrap'
             ]
           },
           {
-            'date': '2014.12 - 2015.06',
-            'title': 'shapEngine 웹 서비스 제작',
+            'date': '2016.02 - 2016.11',
+            'title': 'frip web 유지 보수 / 어드민 유지 보수',
             'contents': [
-              'shapEngine 웹 서비스 제작',
-              '- 작업 리스트 : 메인 / 프린터 등록 / 채팅',
-              '- 3D Printer 를 보유 한 사람이 프린터를 등록 할 수 있는 프로세스 개발',
-              '- Jinja2을 이용한 front-end 개발',
-              '- 기여도 : 25%',
-              'stack: Flask, Jinja2, HTML5, CSS3, JavaScript'
+              'Angular js를 통한 Web / Admin 유지 보수',
+              '- 작업 리스트 : 메인 페이지 무한 스크롤 / <a href="https://www.frip.co.kr/help">고객 센터</a> / 내 정보 / 후기 / 공유 / 날짜 선택 캘린더 / 카카오톡 Oauth 회원가입 / 이메일 회원가입 / 소개 페이지 / 위와 관련된 모든 어드민 페이지 / 위와 관련된 모든 Api',
+              '- Angular js의 라이프 사이클 이해',
+              '- Loopback.io를 이용한 API 제작',
+              '- Admin, Web, Api를 혼자서 작업함',
+              '- Web 이용시 간헐적인 멈춤 현상 해결 <a href="https://qkraudghgh.github.io/angular/2016/08/01/angular-watch-optimize.html">블로그</a>',
+              '- 기여도 : 30%',
+              'stack: HTML5, jQuery, Coffeescript, Gulp, Sass, Loopback.io'
             ]
           }
         ]

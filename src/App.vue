@@ -136,7 +136,7 @@ section:nth-last-child(1) {
 <style lang="less">
 /* reset css */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -150,8 +150,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -162,7 +162,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -257,6 +257,6 @@ a, a:focus, a:visited, a:active, a:hover {
   .col-p-10 { max-width: 83.333333%; flex: 0 0 83.333333%; }
   .col-p-11 { max-width: 91.666667%; flex: 0 0 91.666667%; }
   .col-p-12 { max-width: 100%; flex: 0 0 100%; }
-  .container { padding: 40px; }
+  .container { padding: 40px; max-width: 1200px; }
 }
 </style>
