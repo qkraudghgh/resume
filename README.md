@@ -3,7 +3,7 @@
 > resume template
 
 ## Demo
-> https://kimwoohyun.github.io/resume/
+> https://qkraudghgh.github.io/resume/
 
 ## Build Setup
 
