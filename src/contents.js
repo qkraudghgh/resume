@@ -15,39 +15,29 @@ module.exports = {
     디자인 전공을 했던 적이 있어 Front-End 개발 시에 사용자들이 편한 UX로 개발하는 것에 관심이 있습니다.<br />
     반응형 디자인을 좋아하며 웹 접근성을 고려하여 개발해야 한다는 것을 염두에 두려고 노력합니다.<br />
     Emacs를 가지고 개발하는 것을 좋아합니다.<br />
-    주로 사용하는 언어는 Javascript이며 Coffescript와 Elixir 또한 사용해본 적이 있습니다.<br /><br />
+    주로 사용하는 언어는 javascript이며 Coffescript와 Elixir 또한 사용해본 적이 있습니다.<br /><br />
     최근에는 Elixir로 Back-End 개발을 할 기회가 생겨 JWT를 이용한 회원가입 시스템을 개발하였고 자연스레 함수형 프로그래밍을 경험하였습니다.<br /><br />
-    디자이너와는 스케치, 제플린 등으로 커뮤니케이션을 해왔으며 서로 만족할 만한 작업물이 나올때 까지 얘기를 하는 편입니다.<br /><br />
+    디자이너와는 스케치, 제플린 등으로 커뮤니케이션을 해왔으며 서로 만족할 만한 작업물이 나올 때까지 얘기를 하는 편입니다.<br /><br />
     오픈 소스 구경하는 것을 좋아하며 관심 있는 것을 번역하기도 했습니다.<br />
-    내가 번역한 작업물을 많은 사람이 읽어 준다는 것이 특별한 경험이었으며 공식 레포에도 링크되었고<br />
-    번역을 진행하면서 오히려 공부를 더 많이 할 수 있었던 것이 좋았습니다.<br /><br />
+    clean-code-javascript라는 문서를 번역했으며 공식 레포에 링크되었고, 처음으로 100개 이상의 star를 받았습니다. <br />
+    내가 번역한 작업물을 많은 사람이 읽어 준다는 것이 특별한 경험이었고 번역을 진행하면서 개인적인 공부를 더 많이 할 수 있었던 것이 좋았습니다.<br /><br />
     `
   ,
   contents: {
     'Skill Set': [
       {
-        'date': '(상급: 3, 중급: 2, 초급: 1)',
-        'title': '',
-        'contents': ['']
-      },
-      {
         'date': 'Language',
-        'title': 'HTML5 (3) / CSS3 (3) / JavaScript (2) / Coffescript (2) / Elixir (1)',
+        'title': 'HTML5 / CSS3 / javascript / Coffescript / Elixir',
         'contents': ['']
       },
       {
         'date': 'Framework',
-        'title': 'Angular.js (3) / Loopback.io (1) / Bootstrap (3) / Phoenix (1)',
+        'title': 'Angular.js / Loopback.io / Bootstrap / Phoenix',
         'contents': ['']
       },
       {
         'date': 'Library',
-        'title': 'Webpack (1) / jQuery (2) / Sass (2)',
-        'contents': ['']
-      },
-      {
-        'date': 'Dependency Manager',
-        'title': 'npm (3) / yarn (3)',
+        'title': 'Webpack / jQuery / Sass / Gulp',
         'contents': ['']
       }
     ],
@@ -58,8 +48,9 @@ module.exports = {
         'contents': [
           '개인 프로젝트',
           '- markdown으로 글을 쓰고 공유하는 서비스',
+          '- stack: Express, ejs, javascript, AWS',
           '- <a href="https://github.com/qkraudghgh/markdown-note">https://github.com/qkraudghgh/markdown-note</a>',
-          '- <a href="http://13.209.17.75:3000/">Link</a>'
+          '- <a href="http://13.209.17.75:3000/">Demo</a>'
         ]
       },
       {
@@ -72,7 +63,8 @@ module.exports = {
           '- fullcalendar.js를 이용한 소모임 서비스',
           '- Slack Oauth를 이용해 Slack Community에서 사용 가능',
           '- Slack bot과 연동하여 이용 가능',
-          '- <a href="https://youtu.be/rN_6QzqsOI0">동영상</a>'
+          '- Web 부분 100% 단독 진행',
+          '- <a href="https://youtu.be/rN_6QzqsOI0">Demo Video</a>'
         ]
       },
       {
@@ -81,8 +73,11 @@ module.exports = {
         'contents': [
           '팀 프로젝트',
           '- 지난 한 해를 돌아보며 자신의 회고를 공유하는 서비스',
+          '- stack: Angular4, javascript, firebase',
+          '- 작성된 글을 수집, 분석하여 word cloud와 language-chart를 만들었습니다.',
+          '- Post CRUD / 글 썸네일 / 세션 / 도메인 연동',
           '- <a href="https://github.com/9XDM/YOP">https://github.com/9XDM/YOP</a>',
-          '- <a href="https://yopyop-5e569.firebaseapp.com">Link</a>',
+          '- <a href="https://yopyop-5e569.firebaseapp.com">Demo</a>',
         ]
       },
       {
@@ -250,7 +245,7 @@ module.exports = {
               '- ES6 및 Sass를 사용할 수 있도록 프로젝트에 적용',
               '- EC2에서 폴더로 관리하던 Static file들 S3로 마이그레이션',
               '- 기여도 : 30%',
-              'stack: S3, ES6, Sass, Javascript, Elixir'
+              'stack: S3, ES6, Sass, javascript, Elixir'
             ]
           },
           {
@@ -266,9 +261,10 @@ module.exports = {
               '- S3를 연동하여 기존에 작업하던 자막을 바로 불러오고 수정할 수 있음',
               '- App에서 제공하는 player와 똑같은 view를 제공하여 작업을 용이하게 함',
               '- 여러 자막을 합쳐 영상클립으로 만들 수 있는 기능 만듦',
-              '- Jquery로 작업했다가 Javascript로 수정하여 작업 <a href="https://qkraudghgh.github.io/javascript/2017/08/17/jquery-to-javascript.html">블로그</a>',
+              '- Jquery로 작업했다가 javascript로 수정하여 작업, 해당 내용 블로그 기재',
+              '- <a href="https://qkraudghgh.github.io/javascript/2017/08/17/jquery-to-javascript.html">https://qkraudghgh.github.io/javascript/2017/08/17/jquery-to-javascript.html</a>',
               '- 기여도 : 100%, 단독진행',
-              'stack: HTML5, CSS3, JavaScript, jQuery, Elixir'
+              'stack: HTML5, CSS3, javaScript, jQuery, Elixir'
             ]
           }
         ]
@@ -292,7 +288,7 @@ module.exports = {
               '- 작업 리스트 : Stack 결정 / Router / API 서버 통신 Service module ',
               '- Angular 2와 ES6를 이용하여 기본 뼈대 구성',
               '- 기여도 : 25%',
-              'stack: Angular2, Javascript, Sass, Webpack'
+              'stack: Angular2, javascript, Sass, Webpack'
             ]
           },
           {
@@ -304,7 +300,7 @@ module.exports = {
               '- 호스트들이 각자 아이디로 운영중인 프로그램 스케쥴 보기 및 출석체크 가능',
               '- 정산 페이지를 통해 수수료 계산 및 정산 요청, Excel형식으로 export 가능',
               '- 기여도 : 80%',
-              'stack: AngularJs, HTML5, Sass, JavaScript, Bootstrap'
+              'stack: AngularJs, HTML5, Sass, javascript, Bootstrap'
             ]
           },
           {
@@ -312,11 +308,13 @@ module.exports = {
             'title': 'frip web 유지 보수 / 어드민 유지 보수',
             'contents': [
               'Angular js를 통한 Web / Admin 유지 보수',
-              '- 작업 리스트 : 메인 페이지 무한 스크롤 / <a href="https://www.frip.co.kr/help">고객 센터</a> / 내 정보 / 후기 / 공유 / 날짜 선택 캘린더 / 카카오톡 Oauth 회원가입 / 이메일 회원가입 / 소개 페이지 / 위와 관련된 모든 어드민 페이지 / 위와 관련된 모든 Api',
+              '<a href="https://www.frip.co.kr">https://www.frip.co.kr</a>',
+              '- 작업 리스트 : 메인 페이지 무한 스크롤 / 고객 센터 / 내 정보 / 후기 / 공유 / 날짜 선택 캘린더 / 카카오톡 Oauth 회원가입 / 이메일 회원가입 / 소개 페이지 / 위와 관련된 모든 어드민 페이지 / 위와 관련된 모든 Api',
               '- Angular js의 라이프 사이클 이해',
               '- Loopback.io를 이용한 API 제작',
               '- Admin, Web, Api를 혼자서 작업함',
-              '- Web 이용시 간헐적인 멈춤 현상 해결 <a href="https://qkraudghgh.github.io/angular/2016/08/01/angular-watch-optimize.html">블로그</a>',
+              '- Web 이용시 간헐적인 멈춤 현상 해결, 해당 내용 블로그 기재',
+              '- <a href="https://qkraudghgh.github.io/angular/2016/08/01/angular-watch-optimize.html">https://qkraudghgh.github.io/angular/2016/08/01/angular-watch-optimize.html</a>',
               '- 기여도 : 30%',
               'stack: HTML5, jQuery, Coffeescript, Gulp, Sass, Loopback.io'
             ]
