@@ -9264,7 +9264,7 @@ module.exports = {
   },
   introduction: `
     2016년부터 Front-End 개발을 하고 있고 최근에는 Back-End 개발에 관심이 생긴 박명호입니다.<br />
-    주로 Angular.js를 이용하여 Front-End 개발을 해왔고 익숙합니다. 최근에는 Vue에 관심이 생겨 공부하고 있습니다. <br /><br />
+    주로 AngularJS를 이용하여 Front-End 개발을 해왔고 익숙합니다. 최근에는 Vue에 관심이 생겨 공부하고 있습니다. <br /><br />
     디자인 전공을 했던 적이 있어 Front-End 개발 시에 사용자들이 편한 UX로 개발하는 것에 관심이 있습니다.<br />
     반응형 디자인을 좋아하며 웹 접근성을 고려하여 개발해야 한다는 것을 염두에 두려고 노력합니다.<br />
     Emacs를 가지고 개발하는 것을 좋아합니다.<br />
@@ -9283,7 +9283,7 @@ module.exports = {
       'contents': ['']
     }, {
       'date': 'Framework',
-      'title': 'Angular.js / Loopback.io / Bootstrap / Phoenix',
+      'title': 'AngularJS / Loopback.io / Bootstrap / Phoenix',
       'contents': ['']
     }, {
       'date': 'Library',
@@ -9301,7 +9301,7 @@ module.exports = {
     }, {
       'date': '2017.02',
       'title': 'Year Of Programmers - YOP',
-      'contents': ['팀 프로젝트', '- 지난 한 해를 돌아보며 자신의 회고를 공유하는 서비스', '- stack: Angular4, javascript, firebase', '- 작성된 글을 수집, 분석하여 word cloud와 language-chart를 만들었습니다.', '- Post CRUD / 글 썸네일 / 세션 / 도메인 연동', '- <a href="https://github.com/9XDM/YOP">https://github.com/9XDM/YOP</a>', '- <a href="https://yopyop-5e569.firebaseapp.com">Demo</a>']
+      'contents': ['팀 프로젝트', '- 지난 한 해를 돌아보며 자신의 회고를 공유하는 서비스', '- stack: Angular2, javascript, firebase', '- 작성된 글을 수집, 분석하여 word cloud와 language-chart를 만들었습니다.', '- Post CRUD / 글 썸네일 / 세션 / 도메인 연동', '- <a href="https://github.com/9XDM/YOP">https://github.com/9XDM/YOP</a>', '- <a href="https://yopyop-5e569.firebaseapp.com">Demo</a>']
     }, {
       'date': '2017.01',
       'title': 'clean-code-javascript-ko',
@@ -9345,12 +9345,12 @@ module.exports = {
   summary: {
     '경력 요약': [{
       'date': ['2017.06', '2017.12'],
-      'title': 'Plain Bagle (플레인 베이글)',
+      'title': 'Plain Bagel (플레인 베이글)',
       'contents': ['주 - Back-end(Elixir, Phoenix framework) 개발', '서브 - Front-end 개발']
     }, {
       'date': ['2016.02', '2016.12'],
       'title': 'Frientrip (프렌트립)',
-      'contents': ['주 - Front-end(Angular.js) 개발', '서브 - Back-end(Node.js, Loopback.io) 개발']
+      'contents': ['주 - Front-end(AngularJS) 개발', '서브 - Back-end(Node.js, Loopback.io) 개발']
     }]
   },
   detailContents: {
@@ -9390,7 +9390,7 @@ module.exports = {
           'contents': ['어드민에서 동영상 자막 작업을 할 수 있는 소규모 프로젝트', `
               - 작업 리스트 :
               Youtube 동영상 불러오기 / 해당 Timeline에 자막을 작성 / Preview / 자막 파일 불러오기
-              `, '- Youtube 동영상을 보면서 자막을 바로 작성, 수정할 수 있는 온라인 에디터', '- S3를 연동하여 기존에 작업하던 자막을 바로 불러오고 수정할 수 있음', '- App에서 제공하는 player와 똑같은 view를 제공하여 작업을 용이하게 함', '- 여러 자막을 합쳐 영상클립으로 만들 수 있는 기능 만듦', '- Jquery로 작업했다가 javascript로 수정하여 작업, 해당 내용 블로그 기재', '- <a href="https://qkraudghgh.github.io/javascript/2017/08/17/jquery-to-javascript.html">https://qkraudghgh.github.io/javascript/2017/08/17/jquery-to-javascript.html</a>', '- 기여도 : 100%, 단독진행', 'stack: HTML5, CSS3, javaScript, jQuery, Elixir']
+              `, '- Youtube 동영상을 보면서 자막을 바로 작성, 수정할 수 있는 온라인 에디터', '- S3를 연동하여 기존에 작업하던 자막을 바로 불러오고 수정할 수 있음', '- App에서 제공하는 player와 똑같은 view를 제공하여 작업을 용이하게 함', '- 여러 자막을 합쳐 영상클립으로 만들 수 있는 기능 만듦', '- jQuery로 작업했다가 javascript로 수정하여 작업, 해당 내용 블로그 기재', '- <a href="https://qkraudghgh.github.io/javascript/2017/08/17/jquery-to-javascript.html">https://qkraudghgh.github.io/javascript/2017/08/17/jquery-to-javascript.html</a>', '- 기여도 : 100%, 단독진행', 'stack: HTML5, CSS3, javaScript, jQuery, Elixir']
         }]
       }
     },
@@ -9408,11 +9408,11 @@ module.exports = {
         }, {
           'date': '2016.03 - 2016.05',
           'title': '호스트 어드민 제작',
-          'contents': ['Frip 서비스의 호스트들이 이용하는 서비스', '- 작업 리스트 : 메인 / 출석체크 / 정산 / 스케쥴 보기', '- 호스트들이 각자 아이디로 운영중인 프로그램 스케쥴 보기 및 출석체크 가능', '- 정산 페이지를 통해 수수료 계산 및 정산 요청, Excel형식으로 export 가능', '- 기여도 : 80%', 'stack: AngularJs, HTML5, Sass, javascript, Bootstrap']
+          'contents': ['Frip 서비스의 호스트들이 이용하는 서비스', '- 작업 리스트 : 메인 / 출석체크 / 정산 / 스케쥴 보기', '- 호스트들이 각자 아이디로 운영중인 프로그램 스케쥴 보기 및 출석체크 가능', '- 정산 페이지를 통해 수수료 계산 및 정산 요청, Excel형식으로 export 가능', '- 기여도 : 80%', 'stack: AngularJS, HTML5, Sass, javascript, Bootstrap']
         }, {
           'date': '2016.02 - 2016.11',
           'title': 'frip web 유지 보수 / 어드민 유지 보수',
-          'contents': ['Angular js를 통한 Web / Admin 유지 보수', '<a href="https://www.frip.co.kr">https://www.frip.co.kr</a>', '- 작업 리스트 : 메인 페이지 무한 스크롤 / 고객 센터 / 내 정보 / 후기 / 공유 / 날짜 선택 캘린더 / 카카오톡 Oauth 회원가입 / 이메일 회원가입 / 소개 페이지 / 위와 관련된 모든 어드민 페이지 / 위와 관련된 모든 Api', '- Angular js의 라이프 사이클 이해', '- Loopback.io를 이용한 API 제작', '- Admin, Web, Api를 혼자서 작업함', '- Web 이용시 간헐적인 멈춤 현상 해결, 해당 내용 블로그 기재', '- <a href="https://qkraudghgh.github.io/angular/2016/08/01/angular-watch-optimize.html">https://qkraudghgh.github.io/angular/2016/08/01/angular-watch-optimize.html</a>', '- 기여도 : 30%', 'stack: HTML5, jQuery, Coffeescript, Gulp, Sass, Loopback.io']
+          'contents': ['AngularJS를 통한 Web / Admin 유지 보수', '<a href="https://www.frip.co.kr">https://www.frip.co.kr</a>', '- 작업 리스트 : 메인 페이지 무한 스크롤 / 고객 센터 / 내 정보 / 후기 / 공유 / 날짜 선택 캘린더 / 카카오톡 Oauth 회원가입 / 이메일 회원가입 / 소개 페이지 / 위와 관련된 모든 어드민 페이지 / 위와 관련된 모든 Api', '- AngularJS의 라이프 사이클 이해', '- Loopback.io를 이용한 API 제작', '- Admin, Web, Api를 혼자서 작업함', '- Web 이용시 간헐적인 멈춤 현상 해결, 해당 내용 블로그 기재', '- <a href="https://qkraudghgh.github.io/angular/2016/08/01/angular-watch-optimize.html">https://qkraudghgh.github.io/angular/2016/08/01/angular-watch-optimize.html</a>', '- 기여도 : 30%', 'stack: HTML5, jQuery, Coffeescript, Gulp, Sass, Loopback.io']
         }]
       }
     }
