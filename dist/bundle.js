@@ -9344,7 +9344,7 @@ module.exports = {
   },
   summary: {
     '경력 요약': [{
-      'date': ['2017.06', '2017.12'],
+      'date': ['2017.07', '2017.12'],
       'title': 'Plain Bagel (플레인 베이글)',
       'contents': ['주 - Back-end(Elixir, Phoenix framework) 개발', '서브 - Front-end 개발']
     }, {
@@ -9355,7 +9355,7 @@ module.exports = {
   },
   detailContents: {
     'Plain bagel (플레인 베이글)': {
-      'date': '2017.06 - 2017.12',
+      'date': '2017.07 - 2017.12',
       'info': '긴 동영상을 압축해서 썸네일 형식으로 짧은 시간에 감상할 수 있는 앱 “Skippy” 를 서비스 중인 스타트업.',
       'service': ['Skippy<br /> - <a href="http://www.skippy.ai/">http://www.skippy.ai/</a> <br />'],
       'project': {
@@ -9385,7 +9385,7 @@ module.exports = {
               게시물 sorting / S3를 이용해 Static file serving / 배너 / 플레이리스트
               `, '- Phoenix framework를 이용하여 웹 영역 유지보수', '- ES6 및 Sass를 사용할 수 있도록 프로젝트에 적용', '- EC2에서 폴더로 관리하던 Static file들 S3로 마이그레이션', '- 기여도 : 30%', 'stack: S3, ES6, Sass, javascript, Elixir']
         }, {
-          'date': '2016.06 - 2016.08',
+          'date': '2016.07 - 2016.08',
           'title': '온라인 자막 에디터',
           'contents': ['어드민에서 동영상 자막 작업을 할 수 있는 소규모 프로젝트', `
               - 작업 리스트 :
