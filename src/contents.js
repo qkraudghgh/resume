@@ -1,7 +1,7 @@
 module.exports = {
   profile: {
     name: '박명호',
-    description: 'Front-end(or Server) developer',
+    description: 'Front-end developer',
     dateOfBirth: '1993.01.03',
     email: 'qkraudghgh@gmail.com',
     links: [
@@ -11,7 +11,7 @@ module.exports = {
   },
   introduction: `
     2016년부터 Front-End 개발을 하고 있고 최근에는 Back-End 개발에 관심이 생긴 박명호입니다.<br />
-    주로 AngularJS를 이용하여 Front-End 개발을 해왔고 익숙합니다. 최근에는 Vue에 관심이 생겨 공부하고 있습니다. <br /><br />
+    주로 React를 이용하여 Front-End 개발을 하고있습니다. 예전에는 angular.js로 개발을 해서 익숙합니다. <br /><br />
     디자인 전공을 했던 적이 있어 Front-End 개발 시에 사용자들이 편한 UX로 개발하는 것에 관심이 있습니다.<br />
     반응형 디자인을 좋아하며 웹 접근성을 고려하여 개발해야 한다는 것을 염두에 두려고 노력합니다.<br />
     Emacs를 가지고 개발하는 것을 좋아합니다.<br />
@@ -19,7 +19,7 @@ module.exports = {
     최근에는 Elixir로 Back-End 개발을 할 기회가 생겨 JWT를 이용한 회원가입 시스템을 개발하였고 자연스레 함수형 프로그래밍을 경험하였습니다.<br /><br />
     디자이너와는 스케치, 제플린 등으로 커뮤니케이션을 해왔으며 서로 만족할 만한 작업물이 나올 때까지 얘기를 하는 편입니다.<br /><br />
     오픈 소스 구경하는 것을 좋아하며 관심 있는 것을 번역하기도 했습니다.<br />
-    clean-code-javascript라는 문서를 번역했으며 공식 레포에 링크되었고, 처음으로 100개 이상의 star를 받았습니다. <br />
+    clean-code-javascript라는 문서를 번역했으며 공식 레포에 링크되었고, 처음으로 250개 이상의 star를 받았습니다. <br />
     내가 번역한 작업물을 많은 사람이 읽어 준다는 것이 특별한 경험이었고 번역을 진행하면서 개인적인 공부를 더 많이 할 수 있었던 것이 좋았습니다.<br /><br />
     `
   ,
@@ -32,7 +32,7 @@ module.exports = {
       },
       {
         'date': 'Framework',
-        'title': 'AngularJS / Loopback.io / Bootstrap / Phoenix',
+        'title': 'React / Redux / AngularJS / Loopback.io / Bootstrap / Phoenix',
         'contents': ['']
       },
       {
@@ -43,7 +43,7 @@ module.exports = {
     ],
     '개인/팀 프로젝트': [
       {
-        'date': '2018.04 - 현재',
+        'date': '2018.04 - 2018.04',
         'title': 'markdown-note',
         'contents': [
           '개인 프로젝트',
@@ -160,6 +160,13 @@ module.exports = {
   summary: {
     '경력 요약': [
       {
+        'date': ['2018.08', '현재'],
+        'title': 'Drama&Company',
+        'contents': [
+          '주 - Front-end 개발'
+        ]
+      },
+      {
         'date': ['2017.07', '2017.12'],
         'title': 'Plain Bagel (플레인 베이글)',
         'contents': [
@@ -219,7 +226,7 @@ module.exports = {
             ]
           },
           {
-            'date': '2016.09 - 2017.10',
+            'date': '2017.09 - 2017.10',
             'title': 'Android App 유지보수',
             'contents': [
               'Android 개발자의 부재로 간단한 유지보수 진행',
@@ -233,7 +240,7 @@ module.exports = {
             ]
           },
           {
-            'date': '2016.08 - 2016.09',
+            'date': '2017.08 - 2017.09',
             'title': '관리자 페이지',
             'contents': [
               'Skippy 서비스 관리자 페이지 제작 및 유지보수',
@@ -249,7 +256,7 @@ module.exports = {
             ]
           },
           {
-            'date': '2016.07 - 2016.08',
+            'date': '2017.07 - 2017.08',
             'title': '온라인 자막 에디터',
             'contents': [
               '어드민에서 동영상 자막 작업을 할 수 있는 소규모 프로젝트',
