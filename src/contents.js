@@ -14,12 +14,12 @@ module.exports = {
     주로 React를 이용하여 Front-End 개발을 하고있습니다. 예전에는 angular.js로 개발을 해서 익숙합니다. <br /><br />
     디자인 전공을 했던 적이 있어 Front-End 개발 시에 사용자들이 편한 UX로 개발하는 것에 관심이 있습니다.<br />
     반응형 디자인을 좋아하며 웹 접근성을 고려하여 개발해야 한다는 것을 염두에 두려고 노력합니다.<br />
-    Emacs를 가지고 개발하는 것을 좋아합니다.<br />
+    Emacs를 가지고 개발하는 것을 좋아하지만 주로 Vscode를 사용하여 개발합니다.<br />
     주로 사용하는 언어는 javascript이며 Coffescript와 Elixir 또한 사용해본 적이 있습니다.<br /><br />
-    최근에는 Elixir로 Back-End 개발을 할 기회가 생겨 JWT를 이용한 회원가입 시스템을 개발하였고 자연스레 함수형 프로그래밍을 경험하였습니다.<br /><br />
+    최근에는 인프라 구성에 관심이 생겨 회사에서 사용중인 AWS로 웹서비스 자동 배포 시스템을 구축하였습니다.<br /><br />
     디자이너와는 스케치, 제플린 등으로 커뮤니케이션을 해왔으며 서로 만족할 만한 작업물이 나올 때까지 얘기를 하는 편입니다.<br /><br />
     오픈 소스 구경하는 것을 좋아하며 관심 있는 것을 번역하기도 했습니다.<br />
-    clean-code-javascript라는 문서를 번역했으며 공식 레포에 링크되었고, 처음으로 250개 이상의 star를 받았습니다. <br />
+    clean-code-javascript라는 문서를 번역했으며 공식 레포에 링크되었고, 처음으로 380개 이상의 star를 받았습니다. <br />
     내가 번역한 작업물을 많은 사람이 읽어 준다는 것이 특별한 경험이었고 번역을 진행하면서 개인적인 공부를 더 많이 할 수 있었던 것이 좋았습니다.<br /><br />
     `
   ,
@@ -94,6 +94,23 @@ module.exports = {
     ],
     '개인 활동': [
       {
+        'date': '2019.07',
+        'title': 'Drama&Company Tech Talk 1회',
+        'contents': [
+          '- Git 활용법에대한 발표',
+          '- <a href="https://www.slideshare.net/ssuser8293c3/dramancompany-tech-talk-1-git-158068315">https://www.slideshare.net/ssuser8293c3/dramancompany-tech-talk-1-git-158068315</a>'
+        ]
+      },
+      {
+        'date': '2019.04',
+        'title': 'Drama&Company 사내발표',
+        'contents': [
+          '- IaC 관련 발표',
+          '- AWS의 CloudFormation 사용법 및 적용기',
+          '- <a href="https://www.slideshare.net/ssuser8293c3/cloudformation-142307324">https://www.slideshare.net/ssuser8293c3/cloudformation-142307324</a>'
+        ]
+      },
+      {
         'date': '2018.04',
         'title': 'Women Techmakers KR 2018 스태프',
         'contents': [
@@ -163,7 +180,8 @@ module.exports = {
         'date': ['2018.08', '현재'],
         'title': 'Drama&Company',
         'contents': [
-          '주 - Front-end 개발'
+          '주 - Front-end 개발',
+          '서브 - Web Service Infra 관리'
         ]
       },
       {
